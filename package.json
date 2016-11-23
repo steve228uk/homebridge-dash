@@ -1,0 +1,15 @@
+{
+  "name": "homebridge-dash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": "homebridge-plugin",
+  "engines": {
+      "homebridge": ">=0.3.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-dash-button": "^0.6.1"
+  }
+}
