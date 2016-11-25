@@ -26,7 +26,7 @@ sudo npm install -g --unsafe-perm homebridge
 
 ### Config + Running
 
-Check the `config-sample.json` for an example on how to configure the plugin.
+Check the `config-sample.json` for an example on how to configure the plugin. You can configure as many buttons as you wish.
 
 Homebridge **must** be run with elevated privileges to work correctly i.e. sudo or root.
 

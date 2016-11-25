@@ -1,0 +1,25 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "DC:39:3D:F3:CE:31",
+        "port": 51827,
+        "pin": "031-57-155"
+    },
+
+    "description": "An example Homebridge config for Amazon Dash.",
+
+    "accessories": [
+       {
+           "accessory": "Dash",
+           "name": "Dash Button 1",
+           "protocol": "udp",
+		   "mac": "XX:XX:XX:XX:XX:XX"
+       },
+	   {
+           "accessory": "Dash",
+           "name": "Another Dash",
+           "protocol": "udp",
+		   "mac": "XX:XX:XX:XX:XX:XX"
+       }
+    ]
+}
